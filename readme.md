@@ -50,7 +50,7 @@ This project contains a graph database of football (soccer) player statistics fo
 
 ## Queries
 
-### 1. Player with the Most Goals in the Season
+### 1. Top 5 Players with the Most Goals in the Season
 
 ```cypher
 MATCH (n:player)

@@ -228,31 +228,31 @@ CREATE (n)-[:WON_WORLD_CUP {number_of_goals: 4, number_of_assists: 0}]->(m);
 
 // been in top 10 ballon d'or
 MATCH (n {fullname: 'Lionel Messi'}), (m {name: "Ballon d'or"})
-CREATE (n)-[:RANKED_IN {place: 1,number_of_points: 452}]->(m);
+CREATE (n)-[:RANKED_IN {place: 1, number_of_points: 452}]->(m);
 
 MATCH (n {fullname: 'Erling Haaland'}), (m {name: "Ballon d'or"})
-CREATE (n)-[:RANKED_IN {place: 2,number_of_points: 357 }]->(m);
+CREATE (n)-[:RANKED_IN {place: 2, number_of_points: 357 }]->(m);
 
 MATCH (n {fullname: 'Kylian Mbappé'}), (m {name: "Ballon d'or"})
-CREATE (n)-[:RANKED_IN {place: 3,number_of_points: 270}]->(m);
+CREATE (n)-[:RANKED_IN {place: 3, number_of_points: 270}]->(m);
 
 MATCH (n {fullname: 'Kevin De Bruyne'}), (m {name: "Ballon d'or"})
-CREATE (n)-[:RANKED_IN {place: 4,number_of_points: 100}]->(m);
+CREATE (n)-[:RANKED_IN {place: 4, number_of_points: 100}]->(m);
 
 MATCH (n {fullname: 'Rodri'}), (m {name: "Ballon d'or"})
-CREATE (n)-[:RANKED_IN {place: 5,number_of_points: 57}]->(m);
+CREATE (n)-[:RANKED_IN {place: 5, number_of_points: 57}]->(m);
 
 MATCH (n {fullname: 'Vinícius Júnior'}), (m {name: "Ballon d'or"})
-CREATE (n)-[:RANKED_IN {place: 6,number_of_points: 49}]->(m);
+CREATE (n)-[:RANKED_IN {place: 6, number_of_points: 49}]->(m);
 
 MATCH (n {fullname: 'Julián Álvarez'}), (m {name: "Ballon d'or"})
-CREATE (n)-[:RANKED_IN {place: 7,number_of_points:28 }]->(m);
+CREATE (n)-[:RANKED_IN {place: 7, number_of_points:28 }]->(m);
 
 MATCH (n {fullname: 'Victor Osimhen'}), (m {name: "Ballon d'or"})
-CREATE (n)-[:RANKED_IN {place: 8,number_of_points: 24}]->(m);
+CREATE (n)-[:RANKED_IN {place: 8, number_of_points: 24}]->(m);
 
 MATCH (n {fullname: 'Bernardo Silva'}), (m {name: "Ballon d'or"})
-CREATE (n)-[:RANKED_IN {place: 9,number_of_points:20 }]->(m);
+CREATE (n)-[:RANKED_IN {place: 9, number_of_points:20 }]->(m);
 
 MATCH (n {fullname: 'Luka Modric'}), (m {name: "Ballon d'or"})
-CREATE (n)-[:RANKED_IN {place: 10,number_of_points:19 }]->(m);
+CREATE (n)-[:RANKED_IN {place: 10, number_of_points:19 }]->(m);
