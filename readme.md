@@ -4,6 +4,10 @@
 
 This project contains a graph database of football (soccer) player statistics for the 2022/2023 season. It includes information about players, leagues, cups, and the Ballon d'Or award. The database is designed to answer various questions about player performance, physical attributes, and achievements.
 
+## Graph
+
+![alt text](graph_image.png)
+
 ## Data Model
 
 ### Nodes
