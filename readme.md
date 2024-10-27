@@ -56,7 +56,7 @@ This project contains a graph database of football (soccer) player statistics fo
 MATCH (n:player)
 RETURN n.fullname AS player_with_the_most_goals, n.goals AS goals
 ORDER BY n.goals DESC
-LIMIT 1;
+LIMIT 5;
 ```
 
 This query returns the player who scored the most goals across all competitions in the 2022/2023 season.
